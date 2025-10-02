@@ -1,0 +1,7 @@
+C:\Users\magnu\source\repos\bridge\bin\Debug\bridge.dll
+C:\Users\magnu\source\repos\bridge\bin\Debug\bridge.pdb
+C:\Users\magnu\source\repos\bridge\obj\Debug\bridge.csproj.AssemblyReference.cache
+C:\Users\magnu\source\repos\bridge\obj\Debug\bridge.csproj.CoreCompileInputs.cache
+C:\Users\magnu\source\repos\bridge\obj\Debug\bridge.dll
+C:\Users\magnu\source\repos\bridge\obj\Debug\bridge.pdb
+C:\Users\magnu\source\repos\bridge\bin\Debug\bridge.xml

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>bridge</name>
+    </assembly>
+    <members>
+        <member name="M:bridge.Car.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor for Car passes parameters to base class Vhehicle
+            </summary>
+            <param name="LP"></param>
+            <param name="biz"></param>
+        </member>
+        <member name="M:bridge.Car.Price">
+            <summary>
+            Calculates the price of a car ticket, with a discount if brobizz is used currently hardcoded might need updating
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bridge.Car.Vehicle">
+            <summary>
+            Returns the type of vehicle
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bridge.Vhehicle.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor for Vhehicle checks if the licence plate is to long and throws an exception if it is. also updates the date and sets brobizz to true or false
+            </summary>
+            <param name="LP"></param>
+            <param name="biz"></param>
+            <exception cref="T:bridge.LicencePlateLengthException"></exception>
+        </member>
+        <member name="M:bridge.Vhehicle.Price">
+            <summary>
+            overridable method for calculating the price of a ticket    
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bridge.Vhehicle.Vehicle">
+            <summary>
+            overridable method for returning the type of vehicle    
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bridge.MC.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor for MC passes parameters to base class Vhehicle
+            </summary>
+            <param name="LP"></param>
+            <param name="biz"></param>
+        </member>
+        <member name="M:bridge.MC.Price">
+            <summary>
+            Calculates the price of an MC ticket, with a discount if brobizz is used currently hardcoded might need updating
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bridge.MC.Vehicle">
+            <summary>
+            Returns the type of vehicle
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
